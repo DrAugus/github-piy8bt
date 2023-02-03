@@ -13,6 +13,9 @@ pull_request_rules:
         - check-success=ci
         - check-success=ci-main/build
         - check-success=build
+        - check-success=ci-main / build (ubuntu-latest, 16) (pull_request) 
+        - check-success=build (ubuntu-latest, 16) (pull_request)
+        - check-success~=^build 
     actions:
       merge:
         method: merge
